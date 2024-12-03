@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="./script1.js" defer></script>
+    <script>
+        function fertigButton() {
+            let passw = document.getElementById('password').value
+            let user = document.getElementById('user').value
+            console.log(passw)
+            console.log(user)
+            if (passw != "12345" || user != "admin") {
+                window.alert("Wrong User or Password")
+            } else {
+                window.location.href = "./unterseite1.2.html";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Sign in</h1>
+
+    <form>
+        <input class="signIn" type="text" name="user" id="user" placeholder="Benutzername"><br>
+        <input class="signIn" type="text" name="password" id="password" placeholder="Passwort">
+    </form>
+
+    <a class="fertigButton" onclick="fertigButton()">Fertig</a>
+    <br>
+    <a class="backButton" href="./unterseite1.html">back</a>
+</body>
+
+</html>

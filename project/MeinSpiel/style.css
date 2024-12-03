@@ -1,0 +1,324 @@
+@font-face {
+    font-family: logoSchriftFett;
+    src: url(./Fonts/relevance/Relevance-trial-Bold.ttf);
+}
+
+@font-face {
+    font-family: logoSchriftDunn;
+    src: url(./Fonts/chopin/Chopin-Light.ttf);
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 844px;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f6f6f6;
+    font-family: logoSchriftFett;
+}
+
+h1 {
+    text-align: center;
+    font-size: 320%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 130%;
+}
+
+#kr1 {
+    margin-top: 105%;
+    margin-left: 50%;
+    background-color: #af202021;
+}
+
+#kr2 {
+    margin-top: 15%;
+    margin-left: -45%;
+    background-color: #a2777721;
+}
+
+#kr3 {
+    margin-top: -59%;
+    margin-left: 5%;
+    color: #af202021;
+    background-color: #af202021;
+}
+
+#kr4 {
+    margin-top: 140%;
+    margin-left: -20%;
+    background-color: #af202021;
+}
+
+#kr5 {
+    margin-top: 155%;
+    margin-left: -45%;
+    background-color: #a2777721;
+}
+
+#kr6 {
+    margin-top: -59%;
+    margin-left: 5%;
+    color: #af202021;
+    background-color: #af202021;
+}
+
+div.kreis {
+    z-index: -2;
+    position: fixed;
+    background-color: #af20205b;
+    /*hintergrundfarbe*/
+    width: 450px;
+    /*breite*/
+    height: 450px;
+    /*höhe*/
+    border-radius: 50%;
+    /*Abgerundete Ecken, in diesem Beispiel tun die 50% ein Kreis darstellen*/
+    text-align: center;
+    /*der Text wird zentriert*/
+    background-image: url("http://i1.web.de/image/502/31464502,pd=3/bilder-woche-haustiermesse-japan-tokyo-pudel-kajak.jpg");
+    /*hintergrundbild*/
+    background-repeat: no-repeat;
+    /*hintergrundbild soll nicht mehr wiederholt werden*/
+    background-position: center;
+    /*hintergrundbild zentriert*/
+    background-size: 400px;
+    /*größe des hintergrundbildes*/
+}
+
+span.name {
+    position: absolute;
+    /*Absolute Positionierung - aus dem Textfluss rausgenommen kann frei plaziert werden*/
+    left: 90px;
+    /*Abstand von der oberen li. Ecke nach links*/
+    top: 190px;
+    /*Abstand von der oberen li. Ecke nach oben*/
+    color: red;
+    /*schriftfarbe*/
+    font-weight: 800;
+    /*schriftstärke/-größe*/
+    background-color: rgba(0, 0, 0, 9);
+    /*Hintergrundfarbe*/
+}
+
+#gal {
+    text-align: center;
+}
+
+#logo {
+    width: 80%;
+    margin-left: 8%;
+    z-index: 10;
+}
+
+#textHaartrends {
+    text-align: center;
+}
+
+
+.uebers_startseite {
+    text-align: center;
+    font-size: 400%;
+    font-family: logoSchriftFett;
+}
+
+.uebers_startseitedunn {
+    text-align: center;
+    font-size: 120%;
+    font-family: logoSchriftDunn;
+    color: #af2020;
+    margin-top: -3%;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.unters_links {
+    background-color: #d9d9d9;
+    padding: 2%;
+    text-align: center;
+    font-size: 100%;
+    margin-right: 0.5%;
+    text-decoration: none;
+}
+
+#menu {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0%;
+    /* margin-top: -2%;
+    margin-left: 0%;
+    margin-right: -224%; */
+    display: flex;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #f6f6f6;
+
+}
+
+.but {
+    font-size: 230%;
+}
+
+#loga {
+    font-size: 300%;
+    margin-left: 18%;
+
+}
+
+.signIn {
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 6%;
+    background-color: #d9d9d9;
+    border: none;
+    font-size: 230%;
+
+}
+
+form {
+    margin-top: 25%;
+}
+
+.fertigButton {
+    font-size: 200%;
+    text-align: center;
+    background-color: #d9d9d9;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    display: block;
+}
+
+.backButton {
+    font-size: 140%;
+    background-color: #d9d9d9;
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+#mitaVerw {
+    font-size: 200%;
+    background-color: #d9d9d9;
+    padding: 4%;
+    margin: 3%;
+    margin-top: 10%;
+    top: 40%;
+}
+
+.verwaltung {
+    font-size: 250%;
+    margin-left: 14%;
+    margin-bottom: 20%;
+    
+}
+
+#slideshow {
+    margin-top: 20%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.but {
+    margin-top: 400%;
+
+}
+
+#habilder {
+    margin-left: 15%;
+    height: 300px;
+    width: 200px;
+}
+
+#map {
+    height: 180px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#infoss {
+    text-align: center;
+}
+
+#einzPers {
+    text-align: center;
+    margin: 2%;
+}
+
+.hinzf {
+    font-size: 230%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 6%;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+.hinzf2 {
+    font-size: 230%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 6%;
+    background-color: #d9d9d9;
+    border: none;
+    padding-bottom: 30%;
+}
+
+#hin {
+    background-color: #d9d9d9;
+    padding: 3%;
+    font-size: 210%;
+    width: 8%;
+    margin-left: 40%;
+}
+
+#perso {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#mehr {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#dele {
+    background-color: #d9d9d9;
+    margin: 5%;
+    border: #af2020 solid 3px;
+}
+
+
+#monat {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.tag {
+    text-align: center;
+    padding: 10%;
+}
+
+.red {
+    background-color: #af2020;
+}
